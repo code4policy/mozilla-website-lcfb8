@@ -1,3 +1,10 @@
-p {
-  color: red;
+html {
+  font-size: 12px;
+  font-family: Jost;
+}
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
