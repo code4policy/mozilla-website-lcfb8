@@ -9,7 +9,7 @@ html {
   font-style: normal;
 }
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -26,13 +26,13 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #00539f;
-  text-shadow: 3px 3px 1px darkslategray;
+  text-shadow: 2px 2px 1px darkslategray;
 }
 
 img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 60%;
 }
 body {
   width: 600px;
