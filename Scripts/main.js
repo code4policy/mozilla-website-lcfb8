@@ -18,6 +18,11 @@ myHeading.textContent = "Hello, world!";
 const img = document.getElementById('photo');
 const showBtn = document.getElementById('showBtn');
 const hideBtn = document.getElementById('hideBtn');
+const toggleBtn = document.getElementById('toggleBtn');
 
 showBtn.addEventListener('click', () => { img.style.display = 'block'; });
 hideBtn.addEventListener('click', () => { img.style.display = 'none'; });
+toggleBtn.addEventListener('click', () => {
+  const hidden = getComputedStyle(img).display === 'none';
+  img.style.display = hidden ? 'block' : 'none';
+});
